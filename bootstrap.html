@@ -1,0 +1,111 @@
+<!DOCTYPE 	html>
+<html  lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+</head>
+<body>
+	<div class="container">
+		<table class="table table-condesed table-striped table-hover">
+			<tr><th>Customer</th><th>Code</th></tr>
+			<tr>
+				<td>Marcos</td>
+				<td>OAB03</td>
+			</tr>
+			<tr>
+				<td>Felipe</td>
+				<td>PL84D</td>
+			</tr>
+			<tr>
+				<td>Samuel</td>
+				<td>FJB28F</td>
+			</tr>
+			<tr>
+				<td>Lígia</td>
+				<td>ER54M</td>
+			</tr>
+		</table>
+	</div>
+
+	<br>
+	<div class="container">
+		<a class="btn btn-default" href="#" role="button">Link</a>
+		<input class="btn btn-default" type="button" value="Input">
+		<input class="btn btn-default" type="submit" value="Submit">
+		<!-- Standard button -->
+		<button type="button" class="btn btn-default">Default</button>
+
+		<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+		<button type="button" class="btn btn-primary">Primary</button>
+
+		<!-- Indicates a successful or positive action -->
+		<button type="button" class="btn btn-success">Success</button>
+
+		<!-- Contextual button for informational alert messages -->
+		<button type="button" class="btn btn-info">Info</button>
+
+		<!-- Indicates caution should be taken with this action -->
+		<button type="button" class="btn btn-warning">Warning</button>
+
+		<!-- Indicates a dangerous or potentially negative action -->
+		<button type="button" class="btn btn-danger">Danger</button>
+
+		<!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+		<button type="button" class="btn btn-link">Link</button>
+		<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+	</div>	
+
+	<br>
+	<div class="container">
+		<img src="images/9.jpg" class="img-thumbnail" width="500px">
+	</div>
+	<br>
+
+	<br>
+	<div class="container">
+		<!-- Gatilho -->
+		<button type="button" class="btn btn-pimary btn-lg" data-toggle="modal" data-target="#modal">Abrir Modal</button>
+
+		<!-- Modal -->
+		<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="Rotulo do modal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Modal title</h4>
+					</div>
+					<div class="modal-body">
+					 	<p>Meu primeiro modal</p>
+					</div>
+					<div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="container" style="background-color: #000; height: 500px">
+		<div class="row">
+			<div class="col-md-12"  style="background-color: green; height: 150px">Green</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8"  style="background-color: red; height: 300px">Red</div>
+			<div class="col-md-4"  style="background-color: blue; height: 300px">Blue</div>
+		</div>
+			<div class="row">
+			<div class="col-md-12"  style="background-color: yellow; height: 50px">Yellow</div>
+		</div>
+	</div>
+
+	<footer>
+		<script src="lib/jquery.js" type="text/javascript"/>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript"/>
+	</footer>
+</body>
+</html>
